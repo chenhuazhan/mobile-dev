@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background-color: #fff;
+}
+.app-top {
+  background-color: #006699;
+}
+.app-top a {
+  color: #fff;
+}
+.app-top h1 {
+  color: #fff;
+}
+.app-content {
+  background-color: #fff;
+}
+.app-content .mui-scroll-wrapper {
+  margin: 46px 0;
+}
+.app-content .mui-slider {
+  height: 200px;
+}
+.app-content .nav-link {
+  margin: 8px 0;
+}
+.app-content .nav-link a {
+  display: block;
+  width: 33.3333%;
+  float: left;
+}
+.app-content .nav-link a img {
+  width: 100%;
+}
+.app-content .brand img {
+  width: 100%;
+}
+.app-content .brand ul {
+  width: 100%;
+  padding: 4px 0;
+}
+.app-content .brand ul li {
+  width: 25%;
+  float: left;
+}
+.app-content .product img {
+  width: 100%;
+}
+.app-content .product ul {
+  width: 100%;
+  padding: 4px 8px;
+}
+.app-content .product ul li {
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.app-content .product ul li div {
+  box-shadow: 0 0 5px #ccc;
+  padding: 5px;
+}
+.app-content .product ul li div p {
+  text-align: center;
+}
+.app-content .product ul li div p span {
+  font-size: 12px;
+}
+.app-content .product ul li div p span.price-now {
+  color: #f20;
+}
+.app-content .product ul li div p span.price-old {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.app-content .product ul li div .descript {
+  color: #8f8f94;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 5px 0 0 0;
+}
+.app-content .product ul li div a {
+  background-color: #006699;
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.app-bottom {
+  background-color: #006699;
+}
+.app-bottom a.mui-active span {
+  color: darkorange;
+}
+.app-bottom a span {
+  color: #fff;
+}

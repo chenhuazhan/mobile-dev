@@ -1,0 +1,224 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-20 14:49:27
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-20 19:02:04
+*/
+
+
+.jdm_seach {
+	width: 100%;
+	height: 44px;
+	background: url('../images/header-bg.png');
+	position: relative;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	z-index: 10;
+	
+}
+
+.jdm_seach .jdm_seach_input{
+	height: 44px;
+	margin: 0 40px;
+	line-height: 47px;
+}
+
+.jdm_seach .jdm_seach_input input{
+	width: 100%;
+	height: 30px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	border: none;
+	border: 1px solid #ccc;
+	padding-left: 6px;
+}
+
+.jdm_seach .jdm_seach_iml{
+	display: inline-block;
+	width: 20px;
+	height: 100%;
+	padding: 0 10px;
+	float: left;
+	background: url('../images/jd-sprites.png');
+	background-size: 200px 200px;
+	background-position: -12px 13px;
+	background-clip: content-box;
+}
+
+.jdm_seach .jdm_seach_im2{
+	display: block;
+	width: 22px;
+	height: 100%;
+	padding: 0 6px;
+	float: right;
+	background: url('../images/jd-sprites.png');
+	background-size: 200px 200px;
+	background-position: -55px 13px;
+	background-clip: content-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+/* 中部左边分类栏 */
+
+.content{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+
+}
+
+.sort_left {
+	/* overflow: hidden; */
+	float: left;
+	position: absolute;
+	width: 100px;
+	height: 100%;
+}
+
+.sort_left ul{
+	padding-top: 44px;
+}
+
+.sort_left li{
+	width: 90px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	background-color: #f3f4f6;
+	font-size: 14px;
+}
+
+
+.sort_left .active{
+	/* margin-top: 44px; */
+	background-color: #fff;
+	color: #f15353;
+	border: none;
+}
+
+
+/* 中部分类栏右边 */
+.sort_right{
+	width: auto;
+	height: 100%;
+	overflow: hidden;
+	padding: 62px 10px 0px 15px; 
+	margin-left: 90px;
+	overflow-y: scroll;
+	
+}
+.recommend{
+	width: 100%;
+}
+
+.sort_right .recommend h4{
+	margin-bottom: 14px;
+}
+
+.sort_right .recommend ul{
+	width: 100%;
+	border-left: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.sort_right .recommend a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.sort_right .recommend li{
+	height: 50px;
+	width: 33.3333%;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	line-height: 49px;
+}
+
+.guide h4{
+	margin-top: 16px;
+}
+
+.guide ul{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 4px;
+}
+
+.guide li{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+
+.guide li img{
+	width: 100%;
+}
+.guide li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.selling h4{
+	margin-top: 16px;
+}
+
+.selling ul{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 4px;
+}
+
+.selling li{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+
+.selling li img{
+	width: 100%;
+}
+.selling li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/* 裙装 */
+
+.skirt h4{
+	margin-top: 16px;
+}
+
+.skirt ul{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 4px;
+}
+
+.skirt li{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+
+.skirt li img{
+	width: 100%;
+}
+.skirt li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
